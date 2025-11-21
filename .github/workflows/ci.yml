@@ -8,12 +8,7 @@ concurrency:
 
 # Run on pull requests and push events to master only
 on:
-  pull_request:
-    branches:
-      - master
   push:
-    branches:
-      - master
 
 permissions:
   contents: read
