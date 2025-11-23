@@ -1887,7 +1887,7 @@ class TestGeo(unittest.TestCase):
             self.assertEqual(record.col_defs["Gene_Sym"], "Gene symbols")
             self.assertEqual(
                 record.col_defs["GB_ACC"],
-                'GenBank accession number of sequence used to design oligonucleotide probe   LINK_PRE:"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Search&db=Nucleotide&term="',
+                'GenBank accession number of sequence used to design oligonucleotide probe   LINK_PRE:"https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Search&db=Nucleotide&term="',
             )
             self.assertEqual(record.col_defs["SPOT_ID"], "alternative identifier")
             self.assertEqual(record.col_defs["ID"], "")
@@ -2248,7 +2248,7 @@ class TestGeo(unittest.TestCase):
             )
             self.assertEqual(
                 record.col_defs["TAG"],
-                'Ten base SAGE tag, LINK_PRE:"http://www.ncbi.nlm.nih.gov/SAGE/SAGEtag.cgi?tag="',
+                'Ten base SAGE tag, LINK_PRE:"https://www.ncbi.nlm.nih.gov/SAGE/SAGEtag.cgi?tag="',
             )
             self.assertEqual(len(record.table_rows), 21)
             self.assertEqual(len(record.table_rows[0]), 3)
@@ -2947,7 +2947,7 @@ class TestGeo(unittest.TestCase):
             )
             self.assertEqual(
                 record.col_defs["TAG"],
-                'Ten base SAGE tag, LINK_PRE:"http://www.ncbi.nlm.nih.gov/SAGE/SAGEtag.cgi?tag="',
+                'Ten base SAGE tag, LINK_PRE:"https://www.ncbi.nlm.nih.gov/SAGE/SAGEtag.cgi?tag="',
             )
             self.assertEqual(len(record.table_rows), 21)
             self.assertEqual(len(record.table_rows[0]), 3)
@@ -3144,7 +3144,7 @@ class TestGeo(unittest.TestCase):
             self.assertEqual(record.col_defs["Gene_Sym"], "Gene symbols")
             self.assertEqual(
                 record.col_defs["GB_ACC"],
-                'GenBank accession number of sequence used to design oligonucleotide probe   LINK_PRE:"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Search&db=Nucleotide&term="',
+                'GenBank accession number of sequence used to design oligonucleotide probe   LINK_PRE:"https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Search&db=Nucleotide&term="',
             )
             self.assertEqual(record.col_defs["SPOT_ID"], "alternative identifier")
             self.assertEqual(record.col_defs["ID"], "")

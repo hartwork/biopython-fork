@@ -29,7 +29,7 @@ try to use the Bio.Blast module to parse them instead.
 More information about BLAST are available through these links:
   - Publication: http://www.biomedcentral.com/1471-2105/10/421
   - Web interface: http://blast.ncbi.nlm.nih.gov/
-  - User guide: http://www.ncbi.nlm.nih.gov/books/NBK1762/
+  - User guide: https://www.ncbi.nlm.nih.gov/books/NBK1762/
 
 
 Supported Formats
@@ -45,7 +45,7 @@ blast-xml
 =========
 
 The blast-xml parser follows the BLAST XML DTD written here:
-http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.mod.dtd
+https://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.mod.dtd
 
 It provides the following attributes for each SearchIO object:
 

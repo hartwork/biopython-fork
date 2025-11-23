@@ -610,7 +610,7 @@ class XMLWriter(BaseXMLWriter):
     def _write_definition(self):
         self.stream.write(
             b"""\
-<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "https://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
 """
         )
 
@@ -893,7 +893,7 @@ class XML2Writer(BaseXMLWriter):
 <BlastXML2
     xmlns="http://www.ncbi.nlm.nih.gov"
     xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-    xs:schemaLocation="http://www.ncbi.nlm.nih.gov http://www.ncbi.nlm.nih.gov/data_specs/schema_alt/NCBI_BlastOutput2.xsd"
+    xs:schemaLocation="http://www.ncbi.nlm.nih.gov https://www.ncbi.nlm.nih.gov/data_specs/schema_alt/NCBI_BlastOutput2.xsd"
 >
 <BlastOutput2>
   <report>

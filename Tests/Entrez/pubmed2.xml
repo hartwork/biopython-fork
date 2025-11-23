@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2008//EN" "http://www.ncbi.nlm.nih.gov/entrez/query/DTD/pubmed_080101.dtd">
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2008//EN" "https://www.ncbi.nlm.nih.gov/entrez/query/DTD/pubmed_080101.dtd">
 <PubmedArticleSet>
 <PubmedArticle>
     <MedlineCitation Owner="NLM" Status="MEDLINE">

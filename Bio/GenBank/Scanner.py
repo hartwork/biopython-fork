@@ -15,7 +15,7 @@ It is also used by Bio.SeqIO to parse GenBank and EMBL files
 Feature Table Documentation:
 
 - http://www.insdc.org/files/feature_table.html
-- http://www.ncbi.nlm.nih.gov/projects/collab/FT/index.html
+- https://www.ncbi.nlm.nih.gov/projects/collab/FT/index.html
 - ftp://ftp.ncbi.nih.gov/genbank/docs/
 """
 # 17-MAR-2009: added wgs, wgs_scafld for GenBank whole genome shotgun master records.
@@ -1764,7 +1764,7 @@ class GenBankScanner(InsdcScanner):
                     # is called with a dict of dicts where the secondary key/value pairs are
                     # the same as those in the structured comment table. The primary key is
                     # the title or header of the table (e.g. Assembly-Data, FluData). See
-                    # http://www.ncbi.nlm.nih.gov/genbank/structuredcomment
+                    # https://www.ncbi.nlm.nih.gov/genbank/structuredcomment
                     # for more information on Structured Comments.
                     data = line[self.GENBANK_INDENT :]
                     if self.debug > 1:

@@ -5416,7 +5416,7 @@
 <citation rdf:resource="http://purl.uniprot.org/citations/16983685" rdf:ID="_5032383739390019" />
 <citation rdf:resource="http://purl.uniprot.org/citations/18183624" rdf:ID="_503238373939001A" />
 <rdfs:seeAlso rdf:resource="http://atlasgeneticsoncology.org/Genes/GRNID40757ch17q21.html" />
-<rdfs:seeAlso rdf:resource="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/GRN" />
+<rdfs:seeAlso rdf:resource="https://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/GRN" />
 <rdfs:seeAlso rdf:resource="http://purl.uniprot.org/embl-cds/CAA44196.1" />
 <rdfs:seeAlso rdf:resource="http://purl.uniprot.org/embl-cds/AAC09359.1" />
 <rdfs:seeAlso rdf:resource="http://purl.uniprot.org/embl-cds/AAA58617.1" rdf:ID="_503238373939001B" />
@@ -5965,7 +5965,7 @@
 <rdf:type rdf:resource="http://purl.uniprot.org/core/Resource" />
 <rdfs:comment>Atlas of Genetics and Cytogenetics in Oncology and Haematology</rdfs:comment>
 </rdf:Description>
-<rdf:Description rdf:about="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/GRN">
+<rdf:Description rdf:about="https://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/GRN">
 <rdf:type rdf:resource="http://purl.uniprot.org/core/Resource" />
 <rdfs:comment>GeneReviews</rdfs:comment>
 </rdf:Description>

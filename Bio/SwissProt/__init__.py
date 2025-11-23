@@ -51,7 +51,7 @@ class Record:
      - organism          The source of the sequence.
      - organelle         The origin of the sequence.
      - organism_classification  The taxonomy classification.  List of strings.
-       (http://www.ncbi.nlm.nih.gov/Taxonomy/)
+       (https://www.ncbi.nlm.nih.gov/Taxonomy/)
      - taxonomy_id       A list of NCBI taxonomy id's.
      - host_organism     A list of names of the hosts of a virus, if any.
      - host_taxonomy_id  A list of NCBI taxonomy id's of the hosts, if any.

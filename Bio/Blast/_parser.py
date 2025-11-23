@@ -92,7 +92,7 @@ class SchemaHandler:
     """XML Schema parser used to parse NCBI_BlastOutput2.xsd.
 
     The XML Schema for Blast XML2 is available from
-    http://www.ncbi.nlm.nih.gov/data_specs/schema_alt/NCBI_BlastOutput2.xsd
+    https://www.ncbi.nlm.nih.gov/data_specs/schema_alt/NCBI_BlastOutput2.xsd
     """
 
     def __init__(self, parser):
@@ -1152,7 +1152,7 @@ class XMLHandler:
         assert base is None
         if systemId not in (
             "NCBI_BlastOutput.dtd",
-            "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd",
+            "https://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd",
         ):
             raise ValueError("output from legacy BLAST program")
         assert publicId == "-//NCBI//NCBI BlastOutput/EN"

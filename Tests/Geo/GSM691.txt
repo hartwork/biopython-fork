@@ -32,7 +32,7 @@
 !Sample_submitter_web_link = http://cgap.nci.nih.gov/
 !Sample_platform_id = GPL4
 !Sample_series_id = GSE14
-#TAG = Ten base SAGE tag, LINK_PRE:"http://www.ncbi.nlm.nih.gov/SAGE/SAGEtag.cgi?tag="
+#TAG = Ten base SAGE tag, LINK_PRE:"https://www.ncbi.nlm.nih.gov/SAGE/SAGEtag.cgi?tag="
 #COUNT = Absolute tag count
 #TPM = Tags per million, or (1000000*COUNT)/(Total tags)
 TAG	COUNT	TPM

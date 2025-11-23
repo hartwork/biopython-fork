@@ -1128,8 +1128,8 @@ def qblast(
             )
 
     # Format the "Put" command, which sends search requests to qblast.
-    # Parameters taken from http://www.ncbi.nlm.nih.gov/BLAST/Doc/node5.html on 9 July 2007
-    # Additional parameters are taken from http://www.ncbi.nlm.nih.gov/BLAST/Doc/node9.html on 8 Oct 2010
+    # Parameters taken from https://www.ncbi.nlm.nih.gov/BLAST/Doc/node5.html on 9 July 2007
+    # Additional parameters are taken from https://www.ncbi.nlm.nih.gov/BLAST/Doc/node9.html on 8 Oct 2010
     # To perform a PSI-BLAST or PHI-BLAST search the service ("Put" and "Get" commands) must be specified
     # (e.g. psi_blast = NCBIWWW.qblast("blastp", "refseq_protein", input_sequence, service="psi"))
     parameters = {
@@ -1193,7 +1193,7 @@ def qblast(
     stream = urlopen(request)
 
     # Format the "Get" command, which gets the formatted results from qblast
-    # Parameters taken from http://www.ncbi.nlm.nih.gov/BLAST/Doc/node6.html on 9 July 2007
+    # Parameters taken from https://www.ncbi.nlm.nih.gov/BLAST/Doc/node6.html on 9 July 2007
     rid, rtoe = _parse_qblast_ref_page(stream)
     parameters = {
         "ALIGNMENTS": alignments,

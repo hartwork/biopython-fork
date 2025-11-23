@@ -9,7 +9,7 @@
 classes:
 o Record - All of the information in an GEO record.
 
-See http://www.ncbi.nlm.nih.gov/geo/
+See https://www.ncbi.nlm.nih.gov/geo/
 """
 
 

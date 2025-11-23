@@ -25,7 +25,7 @@
 !Platform_contributor = John,Smithers Jr
 !Platform_contributor = Jie,D,Chen
 #ID = 
-#GB_ACC = GenBank accession number of sequence used to design oligonucleotide probe   LINK_PRE:"http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Search&db=Nucleotide&term=" 
+#GB_ACC = GenBank accession number of sequence used to design oligonucleotide probe   LINK_PRE:"https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Search&db=Nucleotide&term=" 
 #Gene_Desc = Gene description
 #Gene_Sym = Gene symbols
 #SEQUENCE = Probe sequence information

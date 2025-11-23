@@ -6,7 +6,7 @@
 # as part of this package.
 """Parser for files from NCBI's Gene Expression Omnibus (GEO).
 
-http://www.ncbi.nlm.nih.gov/geo/
+https://www.ncbi.nlm.nih.gov/geo/
 """
 
 from . import Record

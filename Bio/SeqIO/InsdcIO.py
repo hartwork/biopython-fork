@@ -15,7 +15,7 @@ International Nucleotide Sequence Database Collaboration
 http://www.insdc.org/
 
 GenBank
-http://www.ncbi.nlm.nih.gov/Genbank/
+https://www.ncbi.nlm.nih.gov/Genbank/
 
 EMBL Nucleotide Sequence Database
 http://www.ebi.ac.uk/embl/

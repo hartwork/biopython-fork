@@ -12337,7 +12337,7 @@ We designed and generated pulmonary imaging biomarker pipelines to facilitate hi
         from Bio.Entrez.Parser import CorruptedXMLError
 
         truncated_xml = b"""<?xml version="1.0"?>
-        <!DOCTYPE GBSet PUBLIC "-//NCBI//NCBI GBSeq/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_GBSeq.dtd">
+        <!DOCTYPE GBSet PUBLIC "-//NCBI//NCBI GBSeq/EN" "https://www.ncbi.nlm.nih.gov/dtd/NCBI_GBSeq.dtd">
         <GBSet><GBSeq><GBSeq_locus>
         """
         stream = BytesIO()

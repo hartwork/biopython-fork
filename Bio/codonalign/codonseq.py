@@ -287,8 +287,8 @@ def cal_dn_ds(codon_seq1, codon_seq2, method="NG86", codon_table=None, k=1, cfre
         - ML    - `Goldman and Yang (1994)`_ (PMID 7968486).
         - YN00  - `Yang and Nielsen (2000)`_ (PMID 10666704).
 
-    .. _`Nei and Gojobori (1986)`: http://www.ncbi.nlm.nih.gov/pubmed/3444411
-    .. _`Li et al. (1985)`: http://www.ncbi.nlm.nih.gov/pubmed/3916709
+    .. _`Nei and Gojobori (1986)`: https://www.ncbi.nlm.nih.gov/pubmed/3444411
+    .. _`Li et al. (1985)`: https://www.ncbi.nlm.nih.gov/pubmed/3916709
     .. _`Goldman and Yang (1994)`: http://mbe.oxfordjournals.org/content/11/5/725
     .. _`Yang and Nielsen (2000)`: https://doi.org/10.1093/oxfordjournals.molbev.a026236
 

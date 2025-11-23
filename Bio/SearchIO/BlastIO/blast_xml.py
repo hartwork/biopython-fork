@@ -6,7 +6,7 @@
 # package.
 
 """Bio.SearchIO parser for BLAST+ XML output formats."""
-# for more info: http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.mod.dtd
+# for more info: https://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.mod.dtd
 
 import re
 import warnings
@@ -671,7 +671,7 @@ class _BlastXmlGenerator(XMLGenerator):
         self._write(
             '<?xml version="1.0"?>\n'
             '<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" '
-            '"http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">\n'
+            '"https://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">\n'
         )
 
     def startElement(self, name, attrs=None, children=False):

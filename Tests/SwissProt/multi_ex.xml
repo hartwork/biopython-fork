@@ -3500,7 +3500,7 @@ GGNANRFKTIEECRRTCVG
 <link uri="http://atlasgeneticsoncology.org/Genes/GRNID40757ch17q21.html" />
 </comment>
 <comment type="online information" name="GeneReviews">
-<link uri="http://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/GRN" />
+<link uri="https://www.ncbi.nlm.nih.gov/sites/GeneTests/lab/gene/GRN" />
 </comment>
 <dbReference type="EMBL" id="X62320" key="41">
 <property type="protein sequence ID" value="CAA44196.1" />

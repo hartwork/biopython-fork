@@ -25,7 +25,7 @@ Arguments:
     -h           Print out this help message.
     -c           Count the hits, and don't print them out.
 
-* http://www.ncbi.nlm.nih.gov/Entrez/
+* https://www.ncbi.nlm.nih.gov/Entrez/
 """
     )
 

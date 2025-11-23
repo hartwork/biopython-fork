@@ -1351,7 +1351,7 @@ cdao_owl = """<?xml version="1.0"?>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:description>A positional coordinate giving the source of a character state, used for molecular sequences.</dc:description>
-        <rdfs:comment>drawing from seqloc categories from NCBI at http://www.ncbi.nlm.nih.gov/IEB/ToolBox/SDKDOCS/SEQLOC.HTML#_Seq-loc:_Locations_on</rdfs:comment>
+        <rdfs:comment>drawing from seqloc categories from NCBI at https://www.ncbi.nlm.nih.gov/IEB/ToolBox/SDKDOCS/SEQLOC.HTML#_Seq-loc:_Locations_on</rdfs:comment>
     </owl:Class>
 
 
