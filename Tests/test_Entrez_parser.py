@@ -12376,21 +12376,17 @@ class TlsEnforcementTest(unittest.TestCase):
         handler.open_dtd_file = Mock(return_value=None)  # i.e. bypass cache read
         handler.save_dtd_file = Mock()  # i.e. bypass cache write
 
-        mock_urlopen = Mock(
-            return_value=Mock(
-                read=Mock(return_value=b"<!ELEMENT eInfoResult (DbList|DbInfo|ERROR)>")
-            )
-        )
-
-        with patch("Bio.Entrez.Parser.urlopen", mock_urlopen):
+        with self.assertRaises(ValueError) as caught:
             handler.read(BytesIO(content))
 
-        expected_schemes = ["https"]  # i.e. now with TLS
-        actual_schemes = [
-            urlparse(call_.args[0]).scheme for call_ in mock_urlopen.call_args_list
-        ]
-
-        self.assertEqual(actual_schemes, expected_schemes)
+        self.assertEqual(
+            caught.exception.args,
+            (
+                "Rejected non-TLS URL 'https://www.ncbi.nlm.nih.gov/entrez/query/DTD/eInfo_020511.dtd' to prevent an MITM attack.".replace(
+                    "https", "http"
+                ),
+            ),
+        )
 
 
 if __name__ == "__main__":

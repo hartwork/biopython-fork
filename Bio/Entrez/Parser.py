@@ -1147,21 +1147,9 @@ class DataHandler(metaclass=DataHandlerMeta):
 
 
 def with_tls(url: str) -> str:
-    """Activates TLS/SSL for the given URL, if not already active."""
+    """Detects URLs prone to man-in-the-middle (MITM) attacks."""
     parsed = urllib.parse.urlparse(url)
-
-    new_scheme = {
-        "http": "https",
-        "ftp": "ftps",
-    }.get(parsed.scheme, parsed.scheme)
-
-    return urllib.parse.urlunparse(
-        (
-            new_scheme,
-            parsed.netloc,
-            parsed.path,
-            parsed.params,
-            parsed.query,
-            parsed.fragment,
-        )
-    )
+    # NOTE: an inclusion list is safer than than an exclusion list
+    if parsed.scheme not in ("https", "ftps"):
+        raise ValueError(f"Rejected non-TLS URL {url!r} to prevent an MITM attack.")
+    return url
